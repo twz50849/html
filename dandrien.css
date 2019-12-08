@@ -1,0 +1,10 @@
+.back{position:absolute;top:600px;left:1300px;}
+#title{position:absolute;top:50px;left:883px;font-family:"¿¬Ìå";font-size:20px;z-index:10;color:white;}
+#para{position:absolute;top:80px;left:740px;font-family:"¿¬Ìå";font-size:18px;z-index:10;color:white;}
+#top{position:absolute;top:300px;left:1000px;color:white;font-size:20px;}
+#link{position:absolute;top:320px;left:1000px;color:darkgray;font-size:25px;}
+#picture{height:400px;position:absolute;top:200px;left:820px;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;background-color: orange;}
+a:active{text-decoration: none;}

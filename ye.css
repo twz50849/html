@@ -1,0 +1,11 @@
+.word{color:white;}
+        #para{position:absolute;top:40px;left:200px;font-size:20px;}
+        #topvideo{position:absolute;top:160px;left:260px;}
+        #video{position:absolute;top:180px;left:40px;width:550px;}
+        #introduction{position:absolute;top:550px;left:220px;font-size:20px;}
+        a:link{text-decoration: none;}
+        a:visited{text-decoration: none;}
+        a:hover{text-decoration: none;background-color: orange;}
+        a:active{text-decoration: none;}
+        #photo1{position:absolute;top:10px;left:680px;width:820px;}
+        .back{position:absolute;top:660px;left:800px;}

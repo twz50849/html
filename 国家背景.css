@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+        .left {
+            background: palevioletred;
+            width: 50%;
+            height: 660px;
+            float: left;
+            font-size: 20px;
+            color: #fff;
+        }
+        .right{
+            width: 50%;
+            height: 660px;
+            background: rgb(75, 15, 40);
+            font-size: 20px;
+            float: right;
+            color: #fff;
+        }
+        #north{margin-top:0px;color:cornflowerblue;}
+        #speech{font-family:"ËÎÌו";font-size:18px;}
+        #phototemp1{width:440pxt;height:270px;margin-top:6px}
+        #phototemp2{width:440pxt;height:270px;margin-top:0px}
+        #south{margin-top:0px;color:rgb(201, 24, 24);}

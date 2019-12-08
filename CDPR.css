@@ -1,0 +1,6 @@
+.left{width:30%;float:left;height:570px;border:10px outset;}
+.middle{float: left;height:570px;}
+.middle #temp1{width:506px;}
+.middle #temp2{width:506px;position:absolute;top:370px;left:495px}
+.right{width:30%;position:absolute;left:996px;top:70px;height:568px;border:10px outset;}
+#back{position:absolute;top:450px;left:300px;}
