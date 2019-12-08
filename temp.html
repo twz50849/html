@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>temp</title>
+        <style type="text/css">
+        #dandrien{border:4px outset;border-color:green;width:260px;}#ciri{border:4px outset;border-color:grey;width:260px;}#ye{border:4px outset;border-color:grey;width:260px;}
+        #desk{position:absolute;top:230px;left:690px;background-color:black;height:430px;width:820px;}
+        </style>
+        <script type="text/javascript">
+            var i=0;
+            function change() {
+                   var photo= document.getElementById("gerot");
+                   i=(i+1)%4;
+                   if(i==0){
+                       i=4;
+                   }
+                   photo.src="../_photos/"+i+".jpg";
+                   
+                }
+            function changeBorder(){
+                   if(doctument.getElementById("dandrien").style.border=="4px outset"){
+                       alert("233");
+                    doctument.getElementById("dandrien").style.border="0px";
+                   }else{
+                    doctument.getElementById("dandrien").style.border="4px outset";
+                   }
+            }
+            setTimeout('changeBorder()',2000);
+            window.setInterval("change()",800);
+        </script> 
+    </head>
+    <body>
+            <img id="gerot" src="../_photos/1.jpg" height="660px">
+        <div id="desk">
+            <a href="dandrien.html"><img id="dandrien" src="..\\_photos\\person1.jpg"></a>
+            <a href="ciri.html"><img id="ciri" src="..\\_photos\\person2.jpg"></a>
+            <a href="ye.html"><img id="ye" src="..\\_photos\\person3.jpg"></a>
+            <button class="word" onclick="changeBorder()">233</button>
+        </div>
+    </body>
+</html>        

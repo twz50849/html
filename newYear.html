@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>拜年</title>
+    <style type="text/css">
+    @import url("css\\frameAll.css");
+    </style>
+    <link type="text/css" rel=stylesheet href="css\\newYear.css">
+     <script type="text/javascript">
+        var i=0;
+        function change() {
+               var photo= document.getElementById("gerot");
+               i=(i+1)%4;
+               if(i==0){
+                   i=4;
+               }
+               photo.src="../_photos/"+i+".jpg";
+            }
+        window.setInterval("change()",800);
+    </script> 
+</head>
+<body>
+    <div class="frameAll">
+    <img id="gerot" src="../_photos/1.jpg" height="660px">
+    <pre id="para1">
+看到这，想必对游戏已有一定兴趣，
+其实游戏中最著名的还是杰罗特的
+    </pre>
+    <h1 id="para2"><----------------拜年剑法(锄地剑法)。</h1>
+    <hr id="divider" size="2px">
+    <h4 id="introduction">游戏人物介绍</h4>
+    <h6 class="person" id="person1">丹德里恩</h6><h6 class="person" id="person2">希瑞</h6><h6 class="person" id="person3">叶奈法</h6>
+    <div id="desk">
+        <a href="dandrien.html"><img id="dandrien" src="..\\_photos\\person1.jpg"></a>
+        <a href="ciri.html"><img id="ciri" src="..\\_photos\\person2.jpg"></a>
+        <a href="ye.html"><img id="ye" src="..\\_photos\\person3.jpg"></a>
+    </div>
+    <a id="tail" href="tail.html">进入尾页</a>
+    </div>
+</body>
+
+</html>
